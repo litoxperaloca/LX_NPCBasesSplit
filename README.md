@@ -87,6 +87,7 @@ If these mods made your co-op run work, you can buy me a coffee — [![ko-fi](ht
 - [LX Split-Screen Welcome Package](https://github.com/litoxperaloca/LX_SPLITSCREEN_WELCOME_PACKAGE) — A configurable starter kit per local character.
 - [LX Split-Screen Skills Boost](https://github.com/litoxperaloca/LX_SPLITSCREEN_SKILLS_IMPROVE) — A configurable skill floor per local character.
 - [LX Theodore Split-Screen Fix](https://github.com/litoxperaloca/LX_TheodoreSplit) — Theodore, the family NPC, reacts to every local player and works with a gamepad.
+- [LX HydeCo Underground Split-Screen Fix](https://github.com/litoxperaloca/LX_HydeCoSplit) — Each player gets their own breathing panel underground, opened and driven by their own gamepad.
 
 ---
 
@@ -168,6 +169,7 @@ Si estos mods te arreglaron el coop, podés invitarme un café — [![ko-fi](htt
 - [LX Split-Screen Welcome Package](https://github.com/litoxperaloca/LX_SPLITSCREEN_WELCOME_PACKAGE) — Un equipo inicial configurable por personaje local.
 - [LX Split-Screen Skills Boost](https://github.com/litoxperaloca/LX_SPLITSCREEN_SKILLS_IMPROVE) — Un piso de habilidades configurable por personaje local.
 - [LX Theodore Split-Screen Fix](https://github.com/litoxperaloca/LX_TheodoreSplit) — Theodore, el NPC familiar, reacciona a todos los jugadores locales y anda con mando.
+- [LX HydeCo Underground Split-Screen Fix](https://github.com/litoxperaloca/LX_HydeCoSplit) — Cada jugador tiene su propio panel de respiracion bajo tierra, abierto y manejado con su propio mando.
 
 ---
 
@@ -249,4 +251,5 @@ B42 продолжает улучшать поддержку контролле�
 - [LX Split-Screen Welcome Package](https://github.com/litoxperaloca/LX_SPLITSCREEN_WELCOME_PACKAGE) — Настраиваемый стартовый набор для каждого локального персонажа.
 - [LX Split-Screen Skills Boost](https://github.com/litoxperaloca/LX_SPLITSCREEN_SKILLS_IMPROVE) — Настраиваемый минимальный уровень навыков для каждого локального персонажа.
 - [LX Theodore Split-Screen Fix](https://github.com/litoxperaloca/LX_TheodoreSplit) — Theodore реагирует на всех локальных игроков и работает с геймпадом.
+- [LX HydeCo Underground Split-Screen Fix](https://github.com/litoxperaloca/LX_HydeCoSplit) — У каждого игрока своя панель дыхания под землёй, открываемая и управляемая своим геймпадом.
 
