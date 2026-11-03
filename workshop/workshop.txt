@@ -1,0 +1,78 @@
+version=1
+id=
+title=LX NPC Bases Split-Screen Fix [B42]
+description=[h1]LX NPC Bases Split-Screen Fix[/h1]
+description=Splitscreen / split screen / local couch co-op fix for the NPC Bases (Bandits Settlements) mod in Project Zomboid Build 42 (B42), plus full gamepad support and bases that keep appearing as you travel.
+description=NPC Bases is already careful about multiple players - its loops walk every player and its handlers take a player number. What it never accounts for is two of them sharing one screen.
+description=
+description=[h2]What it does[/h2]
+description=[list]
+description=[*][b]Four windows, each on the right half of the screen[/b] - Admin, Clans, Expansion and Defender Weapons were all measured and centred against the WHOLE game window…
+description=[*][b]Every window takes a gamepad[/b] - They are ISCollapsableWindow panels full of buttons and lists: with a controller there was simply no way in.
+description=[*][b]Bases keep appearing as you travel[/b] - This is the real reason the map stops feeling alive.
+description=[*][b]New towns get settled promptly[/b] - Walk into an area with no bases and the original still waits six game hours, then rolls a 35% chance: about…
+description=[*][b]Messages reach a player who is actually there[/b] - The mod's notices went to "the player", which in split-screen is not deterministic and can be someone who…
+description=[*][b]Nothing of NPC Bases is redistributed[/b] - Its files are read from your installed copy at load time, patched in memory and run from there.
+description=[/list]
+description=[b]Requires:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3796483217]NPC Bases[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268487204]Bandits[/url]
+description=[b]Load it AFTER[/b] NPC Bases, Bandits.
+description=[b]Install:[/b] Subscribe, then enable it under Mods in the main menu. In split-screen, enabling it once covers every player.
+description=[b]License:[/b] CC0 1.0 - public domain. Do anything you want with it, no permission needed.
+description=[b]Full details in English, Spanish and Russian:[/b] [url=https://github.com/litoxperaloca/LX_NPCBasesSplit]GitHub[/url]
+description=
+description=[hr][/hr]
+description=[h2]Español[/h2]
+description=Arreglo de pantalla dividida (splitscreen, split screen, coop local de sillon) para el mod NPC Bases (Bandits Settlements) en Project Zomboid Build 42 (B42), mas soporte completo de mando y bases que siguen apareciendo a medida que viajas.
+description=NPC Bases ya es cuidadoso con varios jugadores: sus bucles recorren a todos y sus handlers reciben el numero de jugador. Lo que nunca contempla es que dos compartan una pantalla.
+description=
+description=[h2]Qué hace[/h2]
+description=[list]
+description=[*][b]Cuatro ventanas, cada una en la mitad que corresponde[/b] - Administracion, Clanes, Expansion y Armas de defensores se median y se centraban contra la ventana ENTERA…
+description=[*][b]Todas las ventanas andan con mando[/b] - Son paneles ISCollapsableWindow llenos de botones y listas: con un control no habia forma de entrar.
+description=[*][b]Las bases siguen apareciendo mientras viajas[/b] - Esta es la razon real de que el mapa deje de sentirse vivo.
+description=[*][b]Los pueblos nuevos se pueblan sin hacerte esperar[/b] - Entras a una zona sin bases y el original igual espera seis horas de juego, y recien ahi tira un 35%: unas…
+description=[*][b]Los avisos le llegan a un jugador que este ahi[/b] - Los avisos del mod iban a "el jugador", que en pantalla dividida no es deterministico y puede ser alguien…
+description=[*][b]No se redistribuye nada de NPC Bases[/b] - Sus archivos se leen de tu copia instalada al cargar, se parchean en memoria y se ejecutan desde ahi.
+description=[/list]
+description=[b]Requiere:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3796483217]NPC Bases[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268487204]Bandits[/url]
+description=[b]Cargá este DESPUÉS de[/b] NPC Bases, Bandits.
+description=[b]Instalación:[/b] Suscribite y activalo en Mods, en el menú principal. En pantalla dividida, con activarlo una vez alcanza para todos.
+description=[b]Licencia:[/b] CC0 1.0 - dominio público. Hacé lo que quieras, sin pedir permiso.
+description=[b]Detalle completo en inglés, español y ruso:[/b] [url=https://github.com/litoxperaloca/LX_NPCBasesSplit]GitHub[/url]
+description=
+description=[hr][/hr]
+description=[h2]Русский[/h2]
+description=Исправление разделённого экрана (splitscreen, локальный кооп) для мода NPC Bases (Bandits Settlements) в Project Zomboid Build 42 (B42), полная поддержка геймпада и базы, которые продолжают появляться по мере путешествия.
+description=NPC Bases уже аккуратен с несколькими игроками: его циклы обходят всех, а обработчики получают номер игрока. Он лишь не учитывает, что двое делят один экран.
+description=
+description=[h2]Что делает[/h2]
+description=[list]
+description=[*][b]Четыре окна, каждое на нужной половине экрана[/b] - Окна администрирования, кланов, экспансии и оружия…
+description=[*][b]Все окна работают с геймпадом[/b] - Это панели ISCollapsableWindow с кнопками и списками: с…
+description=[*][b]Базы продолжают появляться по мере путешествия[/b] - Именно поэтому карта перестаёт казаться живой.
+description=[*][b]Новые города заселяются без долгого ожидания[/b] - Придя в район без баз, оригинал всё равно ждёт шесть…
+description=[*][b]Сообщения доходят до игрока, который действительно рядом[/b] - Уведомления мода шли «игроку», что на разделённом экране…
+description=[*][b]Ничего из NPC Bases не распространяется[/b] - Его файлы читаются из вашей копии при загрузке, патчатся в…
+description=[/list]
+description=[b]Требует:[/b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3796483217]NPC Bases[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268487204]Bandits[/url]
+description=[b]Загружать ПОСЛЕ[/b] NPC Bases, Bandits.
+description=[b]Установка:[/b] Подпишитесь и включите мод в разделе Моды главного меню. При разделённом экране достаточно одного раза для всех.
+description=[b]Лицензия:[/b] CC0 1.0 - общественное достояние. Делайте что угодно, разрешение не нужно.
+description=[b]Полное описание на английском, испанском и русском:[/b] [url=https://github.com/litoxperaloca/LX_NPCBasesSplit]GitHub[/url]
+description=
+description=[hr][/hr]
+description=[b]If these mods made your co-op run work, you can buy me a coffee:[/b] [url=https://ko-fi.com/litoxperaloca]ko-fi.com/litoxperaloca[/url]
+description=
+description=[b]More in the LX Splitscreen & Gamepad Mods suite:[/b]
+description=[list]
+description=[*]LX Split-Screen Co-op Fixes [B42]
+description=[*]LX Split Aim — Controller Aim Assist [B42]
+description=[*]LX Split-Screen Quick Build [B42]
+description=[*]LX A-Life Split-Screen Fix [B42]
+description=[*]LX Bandits Split-Screen Fix [B42]
+description=[*]LX Split-Screen Starter Kit [B42]
+description=[*]LX Split-Screen Skills Boost [B42]
+description=[*]LX Theodore Split-Screen Fix [B42]
+description=[/list]
+tags=Build 42;Multiplayer;Misc
+visibility=public

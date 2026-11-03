@@ -1,0 +1,12 @@
+{
+    "UI_LXNB_name": "LX NPC Bases pantalla dividida",
+    "UI_LXNB_desc": "Pantalla dividida y mando para NPC Bases: las ventanas se abren en la mitad del jugador que las pidio, todas se manejan con el mando, y las bases siguen apareciendo a medida que viajas.",
+    "UI_LXNB_follow": "Bases que te siguen",
+    "UI_LXNB_follow_tip": "NPC Bases cuenta su tope de bases en TODO el mundo: una vez que hay MaxBases en pie no funda ninguna mas, por lejos que viajes, y entre dos explorando ese cupo se gasta al doble de velocidad. Con esto activado el tope cuenta solo las bases que tenes CERCA, asi la densidad local queda igual a la que eligio el autor y el mapa se sigue poblando. Apagado = comportamiento original.",
+    "UI_LXNB_radius": "Que cuenta como cerca (casillas)",
+    "UI_LXNB_radius_tip": "Las bases a esta distancia de cualquier jugador local cuentan para el tope. Mas chico = aparecen bases nuevas antes al moverte; mas grande = mas parecido al original.",
+    "UI_LXNB_ceiling": "Techo del mundo (x MaxBases)",
+    "UI_LXNB_ceiling_tip": "Limite duro de bases en todo el mundo, como multiplo de MaxBases, para que una partida larga no crezca sin freno. Las bases lejanas casi no cuestan: NPC Bases se saltea las que tienen el chunk descargado. En 1 se comporta como el original.",
+    "UI_LXNB_frontier": "Poblar pueblos nuevos mas rapido",
+    "UI_LXNB_frontier_tip": "Al entrar a una zona sin bases, el original igual espera 6 horas de juego y recien ahi tira ClaimChance: unas 17 horas de media hasta el primer intento, que se siente como que el mod esta apagado. Esto baja la comprobacion a 2 horas mientras no haya ninguna base cerca. Las distancias minimas del autor se respetan, asi que no te puede aparecer una encima."
+}

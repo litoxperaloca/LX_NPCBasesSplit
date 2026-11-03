@@ -1,0 +1,12 @@
+UI_EN = {
+    UI_LXNB_name = "LX NPC Bases Split-Screen",
+    UI_LXNB_desc = "Split-screen and controller support for NPC Bases: windows open on the right half, every window is navigable with a gamepad, and bases keep appearing as you travel.",
+    UI_LXNB_follow = "Bases that follow you",
+    UI_LXNB_follow_tip = "NPC Bases counts its base cap across the WHOLE world: once MaxBases stand, no new base is ever founded again, however far you travel - and with two players exploring you burn that cap twice as fast. With this on, the cap counts only the bases NEAR you, so local density stays exactly as the author set it while the world keeps populating. Off = original behaviour.",
+    UI_LXNB_radius = "What counts as near (tiles)",
+    UI_LXNB_radius_tip = "Bases within this distance of any local player count toward the cap. Smaller = new bases appear sooner as you move; bigger = closer to the original.",
+    UI_LXNB_ceiling = "World ceiling (x MaxBases)",
+    UI_LXNB_ceiling_tip = "Hard limit on bases in the whole world, as a multiple of MaxBases, so a long game does not grow without end. Distant bases cost almost nothing: NPC Bases skips a base whose chunk is not loaded. Set to 1 for the original behaviour.",
+    UI_LXNB_frontier = "Settle new towns faster",
+    UI_LXNB_frontier_tip = "Walking into an area with no bases, the original still waits 6 game hours and then rolls ClaimChance: about 17 hours on average before the first attempt, which feels like the mod is off. This drops the check to 2 hours while no base is near. The author's minimum distances still apply, so nothing can appear on top of you.",
+}
